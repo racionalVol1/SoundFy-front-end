@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Arquivos genericos/style/Style.css">
+    <title>SoundFy</title>
+</head>
+
+<body>
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <h1>SoundFy</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex mx-auto" role="search" style="flex-grow: 1; max-width: 500px;">
+                        <input class="form-control me-2" type="search" placeholder="Procure uma música"
+                            aria-label="Search">
+                        <button class="btn" style="background-color: #7e7e7e; color: white;"
+                            type="submit">Buscar</button>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"></ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginainicial.html">Página inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/perfilouvinte.html">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Index.html">Sair</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="sidebar">
+            <h3>Biblioteca</h3>
+            <hr>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="playlistMPB.html">Playlist MPB</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="playlistrock.html">Playlist rock</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="playlistsamba.html">Playlist samba</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="playlistfunk.html">Playlist funk</a>
+                </li>
+            </ul>
+            <hr>
+            <div class="botao-criar playlist">
+                <button type="button" class="btn" style="background-color: #7e7e7e; color: white;">Criar
+                    playlist</button>
+            </div>
+            <hr>
+            <div class="footer-sidebar">
+                Contate-nos
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="profile-header text-center">
+                <div class="profile-picture"></div>
+                <img src="/assets/img/mpb.jpg" alt="Foto da playlisy">
+            </div>
+            <div class="profile-info text-center">
+                <h2>Playlist MPB</h2>
+                
+            </div>
+        </div>
+        <div class="playlist-criada">
+            <h3>Playlist MPB</h3>
+            <div class="search-bar mb-4">
+            </div>
+            <div class="row row-cols-1 g-2">
+                <div class="col">
+                    <div class="musica-playlist">
+                        <img src="/assets/img/djavan.jpg" class="card-img-top" alt="Álbum 2">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Samurai</h5>
+                                <p>Djavan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="musica-playlist">
+                        <img src="/assets/img/caetanoveloso.jpeg" class="card-img-top" alt="Álbum 2">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Sol</h5>
+                                <p>Caetano Veloso</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="musica-playlist">
+                        <img src="/assets/img/chicobuarque.jpeg" class="card-img-top" alt="Álbum 2">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Construção</h5>
+                                <p>Chico Buarque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <Script src="/assets/js/app.js"></Script>
+</body>
+
+</html>
